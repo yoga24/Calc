@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:background">#80CBC4</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ListView" parent="@android:style/Widget.ListView">
+        <item name="android:rowHeight">?android:attr/listPreferredItemHeightSmall</item>
+    </style>
+
+</resources>
